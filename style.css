@@ -2850,6 +2850,85 @@ main p {
     }
 }
 
+/* Ajustes de la portada y de los valores en pantallas angostas. */
+.site-header .logo,
+.site-header .logo h2,
+.site-header .logo h2 a {
+    border: 0;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .Espaciotitulos {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 14px;
+        padding-bottom: 72px;
+    }
+
+    .Espaciotitulos h1,
+    .Espaciotitulos p {
+        margin: 0;
+    }
+
+    .Espaciotitulos #btn-iniciar,
+    .Espaciotitulos .but-ver-serv {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 58px;
+        margin: 0;
+        padding: 16px 18px;
+        white-space: nowrap;
+    }
+
+    .sobre-page .sobre-valores {
+        display: grid;
+        gap: 14px;
+        width: min(100%, 440px);
+        margin: 0 auto;
+    }
+
+    .sobre-page .sobre-valores > .flex {
+        display: grid !important;
+        width: 100%;
+        padding: 0;
+        gap: 12px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .sobre-page .sobre-valores > .flex:last-child {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: 68%;
+        justify-self: center;
+    }
+
+    .sobre-page .sobre-valores .bkg-color-22212D {
+        min-width: 0;
+        min-height: 112px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 9px;
+        padding: 14px 8px;
+        border-radius: 14px;
+        text-align: center;
+    }
+
+    .sobre-page .sobre-valores .bkg-color-22212D img {
+        width: 34px;
+        height: 34px;
+        flex-basis: 34px;
+    }
+
+    .sobre-page .sobre-valores .bkg-color-22212D h3 {
+        font-size: clamp(12px, 3.6vw, 16px);
+        line-height: 1.15;
+    }
+}
+
 @media (max-width: 1000px) {
     .clientes-main {
         padding: 0 40px 70px;
