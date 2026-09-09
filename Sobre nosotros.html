@@ -6,6 +6,7 @@
     <title>HerencIAs</title>
     <link rel='stylesheet' href='style.css'>
     <script src="sobre nosotros.js" defer></script>
+    <script src="navigation.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -18,12 +19,13 @@
             <div class="logo">
                 <h2><a class="nav-link" href="index.html"><img src="assets/figma/chart-network.svg" alt="" width="25" height="25"> Herenc<span class="LetrasNaranjas">IA</span>s</a></h2>
             </div>
-            <div class="nav">
+            <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navegacion-principal"><span></span><span></span><span></span></button>
+            <nav id="navegacion-principal" class="nav" aria-label="Navegación principal">
                 <a class="nav-link" href="Como funciona.html">Cómo funciona</a>
                 <a class="nav-link" href="Sobre nosotros.html">Sobre Nosotros</a>
                 <a class="nav-link" href="Politicas de privacidad.html">Políticas</a>
                 <a class="nav-link" href="Clientes.html">Clientes</a>
-            </div>
+            </nav>
             <div class="boton-contacto">
                 <a class="header-cta sobre-contacto" href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Contacto <img src="assets/figma/arrow-right.svg" alt="" width="14" height="14"></a>
             </div>
