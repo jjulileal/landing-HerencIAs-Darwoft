@@ -1,0 +1,13 @@
+CONSULTAS:
+- Como hacer para que cuando nos rediriga que nos lleve a una parte especifica de la pagina
+- Como hacer los pop ups
+- Como hacer el formulario
+- Preguntar: Si yo estoy en la pagina de Clientes, en la barra de navegador, deslinkeo el boton de Clientes o lo dejo?
+-Preguntar: Como hacer paar cuando el mouse este sobre el header que se ponga naranja
+HECHO:
+- Sobre nosotros
+- Politicas de privacidad
+- Como funciona
+- Clientes
+
+FALTA:

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HerencIAs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header-cont site-header">
+    <div class="logo">
+      <h2><a class="nav-link" href="index.html"><img src="assets/figma/chart-network.svg" alt="" width="25" height="25"> Herenc<span class="LetrasNaranjas">IA</span>s</a></h2>
+    </div>
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="nav-link" href="Como funciona.html">Cómo funciona</a>
+      <a class="nav-link" href="Sobre nosotros.html">Sobre Nosotros</a>
+      <a class="nav-link" href="Politicas de privacidad.html">Políticas</a>
+      <a class="nav-link" href="Clientes.html">Clientes</a>
+    </nav>
+    <div class="boton-contacto">
+      <button id="Contacto" class="header-cta" type="button">Contacto <img src="assets/figma/arrow-right.svg" alt="" width="14" height="14"></button>
+    </div>
+</header>
+<main>
+    <div class="Titulos-pps Espaciotitulos">
+        <h1 class="Font-Playfair-Display">Tu empresa funciona, Imaginá que funcione <span class="LetrasNaranjas">Sola</span></h1>
+        <p class="color-9A95B6">Automatizamos e integramos procesos de negocio para PyMEs. Desarrollamos asistentes, páginas, integraciones y flujos inteligentes que liberan el potencial de tu equipo.</p>
+        <button id="btn-iniciar" type="button">Iniciar diagnóstico gratis <img src="assets/figma/arrow-right.svg" alt="" width="14" height="14"></button>
+        <a class="but-ver-serv bk-color-181628" href="#que-hacemos">Ver servicios</a>
+    </div>
+    <div class="flex bk-color-181628 objetivos">
+      <div>
+         <h2 class="Font-Playfair-Display color-EA591F h2-objetivos">PyMEs</h2>
+         <h3 class="h3-objetivos">Nuestro objetivo</h3>
+         <p class="color-9A95B6">Empoderamos a la pequeña y mediana empresa argentina</p>
+      </div>
+      <div class="medio">
+        <h2 class="Font-Playfair-Display color-EA591F h2-objetivos">100%</h2>
+         <h3 class="h3-objetivos">Soluciones a medida</h3>
+         <p class="color-9A95B6">Sistemas personalizados adaptados a tus procesos</p>
+      </div>
+      <div>
+        <h2 class="Font-Playfair-Display color-EA591F h2-objetivos">25+</h2>
+         <h3 class="h3-objetivos">Páginas y automatizaciones</h3>
+         <p class="color-9A95B6">Casos de éxito implementados con tecnologías de IA</p>
+      </div>
+    </div>
+    <h2 id="que-hacemos" class="Font-Playfair-Display Titulos-pps">¿Qué <span class="LetrasNaranjas">hacemos</span>?</h2>
+    <p class="color-9A95B6 centrar">Diseñamos e implementamos soluciones con Inteligencia Artificial adaptadas a cada proceso de tu negocio. Estos son algunos de los sistemas que desarrollamos:</p>
+    <div class="flex">
+        <article class="works-wwd-bk cards service-card" data-service="Asistentes de atención al cliente" tabindex="0" role="button" aria-label="Ver detalle de Asistentes de atención al cliente">
+            <img src="assets/figma/message-circle.svg" alt="" width="24" height="24">
+            <h3 class="works-wwd">Asistentes de atención al cliente</h3>
+            <p class="color-9A95B6">Un agente de IA que responde consultas frecuentes por WhatsApp, Instagram o tu sitio web, las 24 horas del día, sin intervención humana.</p>
+        </article>
+        <article class="works-wwd-bk cards service-card" data-service="Gestor de redes sociales" tabindex="0" role="button" aria-label="Ver detalle de Gestor de redes sociales">
+            <img src="assets/figma/instagram.svg" alt="" width="24" height="24">
+            <h3 class="works-wwd">Gestor de redes sociales</h3>
+            <p class="color-9A95B6">Genera, programa y publica contenido en Instagram, Facebook y LinkedIn de forma automática, manteniendo la voz de tu marca.</p>
+        </article>
+        <article class="works-wwd-bk cards service-card" data-service="Buscador de clientes potenciales" tabindex="0" role="button" aria-label="Ver detalle de Buscador de clientes potenciales">
+            <img src="assets/figma/users.svg" alt="" width="24" height="24">
+            <h3 class="works-wwd">Buscador de clientes potenciales</h3>
+            <p class="color-9A95B6">Identifica y contacta automáticamente personas o empresas que podrían interesarse en tus productos o servicios, según criterios que vos definís.</p>
+        </article>
+    </div>
+    <div class="flex">
+        <article class="works-wwd-bk cards service-card" data-service="Reportes automáticos de ventas" tabindex="0" role="button" aria-label="Ver detalle de Reportes automáticos de ventas">
+            <img src="assets/figma/bar-chart-2.svg" alt="" width="24" height="24">
+            <h3 class="works-wwd">Reportes automáticos de ventas</h3>
+            <p class="color-9A95B6">Generá informes diarios, semanales o mensuales de facturación, rendimiento y tendencias directamente desde tus datos, sin abrir una sola planilla.</p>
+        </article>
+        <article class="works-wwd-bk cards service-card" data-service="Flujos de onboarding automático" tabindex="0" role="button" aria-label="Ver detalle de Flujos de onboarding automático">
+            <img src="assets/figma/user-plus.svg" alt="" width="24" height="24">
+            <h3 class="works-wwd">Flujos de onboarding automático</h3>
+            <p class="color-9A95B6">Cuando entra un nuevo cliente o empleado, el sistema envía bienvenidas, materiales y pasos a seguir de forma automática y personalizada.</p>
+        </article>
+        <article class="works-wwd-bk cards service-card" data-service="Landings Page" tabindex="0" role="button" aria-label="Ver detalle de Landings Page">
+            <img src="assets/figma/layout.svg" alt="" width="24" height="24">
+            <h3 class="works-wwd">Landings Page</h3>
+            <p class="color-9A95B6">Diseño y desarrollo de páginas de aterrizaje optimizadas para conversión, integradas directamente con tus sistemas de automatización.</p>
+        </article>
+    </div>
+    <div class="flex">
+        <article class="works-wwd-bk cards service-card service-card-compact" data-service="CRM" tabindex="0" role="button" aria-label="Ver detalle de CRM">
+            <img src="assets/figma/database.svg" alt="" width="20" height="20">
+            <h3 class="works-wwd">CRM</h3>
+        </article>
+        <article class="works-wwd-bk cards service-card service-card-compact" data-service="Automatizaciones personalizadas" tabindex="0" role="button" aria-label="Ver detalle de Automatizaciones personalizadas">
+            <img src="assets/figma/cpu.svg" alt="" width="20" height="20">
+            <h3 class="works-wwd">Automatizaciones personalizadas</h3>
+        </article>
+        <article class="works-wwd-bk cards service-card service-card-compact" data-service="Mucho más" tabindex="0" role="button" aria-label="Ver detalle de Mucho más">
+            <img src="assets/figma/plus-circle.svg" alt="" width="20" height="20">
+            <h3 class="works-wwd">Mucho más</h3>
+        </article>
+    </div>
+
+    <div id="modal-container" class="modal oculto" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <section id="paso-1" class="works-wwd-bk formulario paso formulario-p1">
+                <div class="titulo-form flex">
+                    <h3 id="modal-title">Formulario de diagnóstico</h3>
+                    <button id="cerrar-modal-1" type="button" aria-label="Cerrar formulario">
+                        <img src="assets/figma/close.svg" alt="" width="16" height="16">
+                    </button>
+                </div>
+                <h3 class="h3-form">¿Con quién hablamos?</h3>
+                <p class="color-9A95B6">Completá tus datos de contacto básicos para comenzar el diagnóstico inteligente.</p>
+                <form id="formulario-diagnostico-1" novalidate>
+                    <div class="tit-forms">
+                        <label for="nombre-empresa">NOMBRE DE TU EMPRESA</label>
+                        <input id="nombre-empresa" name="empresa" type="text" placeholder="Ej. Mi PyME SRL" required>
+                    </div>
+                    <div class="tit-forms">
+                        <label for="input-servicio">SERVICIO QUE TE INTERESÓ</label>
+                        <input id="input-servicio" name="servicio" type="text" placeholder="Asistentes de atención al cliente" required>
+                    </div>
+                    <div class="tit-forms">
+                        <label for="telefono">WHATSAPP DE CONTACTO</label>
+                        <input id="telefono" name="telefono" type="tel" placeholder="Ej. +54 9 351 1234567" required>
+                    </div>
+                    <button id="btn-siguiente" class="boton-forms" type="submit">Siguiente <img src="assets/figma/arrow-right.svg" alt="" width="16" height="16"></button>
+                </form>
+                <div class="step-indicator color-9A95B6" aria-live="polite">Paso 1 de 2</div>
+            </section>
+
+            <section id="paso-2" class="works-wwd-bk formulario paso oculto formulario-p2" aria-labelledby="titulo-rubro">
+                <div class="titulo-form flex">
+                    <h3>Formulario de diagnóstico</h3>
+                    <button id="cerrar-modal-2" type="button" aria-label="Cerrar formulario">
+                        <img src="assets/figma/close.svg" alt="" width="16" height="16">
+                    </button>
+                </div>
+                <h3 id="titulo-rubro" class="h3-form">¿A qué rubro se dedica tu empresa?</h3>
+                <p class="color-9A95B6">Esto nos ayuda a pre-configurar flujos automatizados comunes en tu sector.</p>
+                <form id="formulario-diagnostico-2">
+                    <div class="grid-rubros">
+                        <input type="radio" id="comercio" name="rubro" value="comercio" checked>
+                        <label for="comercio"><img src="assets/figma/shopping-bag.svg" alt="" width="24" height="24"><span class="texto">Comercio</span></label>
+                        <input type="radio" id="servicios" name="rubro" value="servicios">
+                        <label for="servicios"><img src="assets/figma/briefcase.svg" alt="" width="24" height="24"><span class="texto">Servicios</span></label>
+                        <input type="radio" id="salud" name="rubro" value="salud">
+                        <label for="salud"><img src="assets/figma/activity.svg" alt="" width="24" height="24"><span class="texto">Salud</span></label>
+                        <input type="radio" id="industria" name="rubro" value="industria">
+                        <label for="industria"><img src="assets/figma/settings.svg" alt="" width="24" height="24"><span class="texto">Industria</span></label>
+                        <input type="radio" id="tecnologia" name="rubro" value="tecnologia">
+                        <label for="tecnologia"><img src="assets/figma/cpu.svg" alt="" width="24" height="24"><span class="texto">Tecnología</span></label>
+                        <input type="radio" id="otro" name="rubro" value="otro">
+                        <label for="otro"><img src="assets/figma/more-horizontal.svg" alt="" width="24" height="24"><span class="texto">Otro...</span></label>
+                    </div>
+                    <div class="campo-texto">
+                        <label for="detalle-rubro">¿CUÁL ES TU RUBRO?</label>
+                        <input type="text" id="detalle-rubro" name="detalle-rubro" placeholder="Escribí detalladamente tu sector comercial">
+                    </div>
+                    <button id="btn-enviar" type="submit" class="btn-enviar">Enviar diagnóstico <img src="assets/figma/check.svg" alt="" width="16" height="16"></button>
+                </form>
+                <div class="step-footer">
+                    <button id="btn-volver" class="step-back" type="button">
+                        <img src="assets/figma/arrow-right.svg" alt="" width="16" height="16">
+                        <span>Volver</span>
+                    </button>
+                    <div class="step-indicator color-9A95B6" aria-live="polite">Paso 2 de 2</div>
+                </div>
+            </section>
+
+            <section id="modal-servicio" class="works-wwd-bk formulario paso oculto" aria-labelledby="titulo-servicio">
+                <div class="titulo-form flex">
+                    <h3>Detalle del servicio</h3>
+                    <button id="cerrar-modal-servicio" type="button" aria-label="Cerrar detalle del servicio">
+                        <img src="assets/figma/close.svg" alt="" width="16" height="16">
+                    </button>
+                </div>
+                <p class="color-EA591F">SISTEMAS DE IA</p>
+                <h3 id="titulo-servicio" class="h3-form"></h3>
+                <p id="descripcion-servicio" class="color-9A95B6"></p>
+                <div class="works-wwd-bk" aria-label="Video de ejemplo">
+                    <button id="btn-video-servicio" type="button">▶ Video de ejemplo</button>
+                </div>
+                <button id="btn-automatizar" type="button">Quiero automatizar esto <img src="assets/figma/arrow-right.svg" alt="" width="16" height="16"></button>
+                <p><span class="color-9A95B6">¿Tenés dudas?</span> <a class="LetrasNaranjas" href="https://wa.me/?text=Hola%20quiero%20consultar%20por%20un%20servicio" target="_blank" rel="noopener noreferrer">Consultanos por WhatsApp</a></p>
+            </section>
+        </div>
+    </div>
+</main>
+<footer>
+    <section class="site-contact-section">
+        <div class="site-contact-container">
+            <div class="site-contact-info">
+                <div class="site-contact-heading">
+                    <h2 class="Font-Playfair-Display">Contacto</h2>
+                    <p>Escribinos hoy para coordinar una reunión de diagnóstico. Evaluemos juntos el potencial de automatización de tu empresa.</p>
+                </div>
+                <div class="site-contact-lines">
+                    <div class="site-contact-line"><span>Empresa</span><strong>HerencIAs</strong></div>
+                    <div class="site-contact-line site-contact-line-team"><span>A cargo</span><ul><li>Leal Julian</li><li>Streitas Santiago</li></ul></div>
+                    <div class="site-contact-line"><span>Mail</span><strong>example@HerencIAs.com</strong></div>
+                    <div class="site-contact-line"><span>Ubicación</span><strong>Córdoba, Argentina</strong></div>
+                    <div class="site-contact-line"><span>Horarios de respuesta</span><strong>De 9hs a 21hs</strong></div>
+                </div>
+            </div>
+            <div class="site-socials">
+                <h2 class="Font-Playfair-Display">Nuestras Redes</h2>
+                <div class="site-social-grid">
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="site-social-link"><img src="assets/figma/footer-instagram.svg" alt="" width="20" height="20">Instagram</a>
+                    <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="site-social-link"><img src="assets/figma/footer-video.svg" alt="" width="20" height="20">TikTok</a>
+                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="site-social-link"><img src="assets/figma/footer-linkedin.svg" alt="" width="20" height="20">LinkedIn</a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="site-social-link"><img src="assets/figma/footer-facebook.svg" alt="" width="20" height="20">Facebook</a>
+                </div>
+                <div class="site-consultation-callout">
+                    <h3>¿Listo para empezar?</h3>
+                    <p>Hacé click en iniciar diagnóstico en la parte superior para automatizar tu negocio de forma inteligente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="site-footer-bar">
+        <p>© 2026 HerencIAs. Todos los derechos reservados. <a href="Politicas de privacidad.html">Política de privacidad</a></p>
+        <div class="site-footer-logo"><img src="assets/figma/footer-dot.svg" alt="" width="6" height="6"><strong>HerencIAs</strong></div>
+    </div>
+</footer>
+</body>
+</html>

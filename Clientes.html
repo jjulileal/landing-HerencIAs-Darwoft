@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clientes | HerencIAs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="clientes.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="clientes-page">
+    <header class="header-cont site-header">
+        <div class="logo">
+            <h2><a class="nav-link" href="index.html"><img src="assets/figma/chart-network.svg" alt="" width="25" height="25"> Herenc<span class="LetrasNaranjas">IA</span>s</a></h2>
+        </div>
+        <nav class="nav" aria-label="Navegación principal">
+            <a class="nav-link" href="Como funciona.html">Cómo funciona</a>
+            <a class="nav-link" href="Sobre nosotros.html">Sobre Nosotros</a>
+            <a class="nav-link" href="Politicas de privacidad.html">Políticas</a>
+            <a class="nav-link clientes-activo" href="Clientes.html">Clientes</a>
+        </nav>
+        <div class="boton-contacto">
+            <a id="Contacto" class="header-cta" href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Contacto <img src="assets/figma/arrow-right.svg" alt="" width="14" height="14"></a>
+        </div>
+    </header>
+    <main class="clientes-main">
+            <div class="Titulos-pps clientes-intro">
+                <h2 class="Font-Playfair-Display">Nuestros <span class="LetrasNaranjas">compañeros</span></h2>
+                <p>Explorá los departamentos de Córdoba donde acompañamos a emprendimientos, PyMEs y empresas nacionales.</p>
+            </div>
+            <section class="clientes-explorador" aria-label="Mapa de clientes por departamento">
+                <div class="mapa-panel">
+                    <div class="mapa-wrap">
+                        <svg id="mapa-cba-clientes" viewBox="0 0 447 559" role="img" aria-labelledby="mapa-titulo mapa-descripcion">
+                            <title id="mapa-titulo">Mapa de clientes en Córdoba</title>
+                            <desc id="mapa-descripcion">Mapa de la provincia de Córdoba con departamentos destacados en naranja.</desc>
+                            <image href="./Img deptos cba/mapa-cba-base.png" x="0" y="0" width="447" height="559"></image>
+                            <g class="departamento" data-departamento="norte" tabindex="0" role="button" aria-label="Departamento Norte" aria-controls="clientes-panel">
+                                <image class="departamento-zona" href="./Img deptos cba/departamento-norte.png" x="118" y="69" width="70" height="71"></image>
+                                <text x="153" y="104.5" class="departamento-contador" text-anchor="middle" dominant-baseline="middle">0</text>
+                            </g>
+                            <g class="departamento" data-departamento="centro" tabindex="0" role="button" aria-controls="clientes-panel">
+                                <image class="departamento-zona" href="./Img deptos cba/departamento-centro.png" x="173" y="234" width="93" height="80"></image>
+                                <text x="219.5" y="274" class="departamento-contador" text-anchor="middle" dominant-baseline="middle">0</text>
+                            </g>
+                        </svg>
+                        <div id="mapa-tooltip" class="mapa-tooltip" role="status"></div>
+                    </div>
+                </div>
+                <aside id="clientes-panel" class="clientes-panel" aria-hidden="true">
+                    <button id="cerrar-panel-clientes" class="cerrar-panel" type="button" aria-label="Cerrar detalle">&times;</button>
+                    <div class="panel-encabezado">
+                        <span class="panel-kicker">Departamento seleccionado</span>
+                        <h3 id="panel-departamento">Seleccioná una zona</h3>
+                        <p id="panel-resumen">Los clientes de esta zona aparecerán acá.</p>
+                    </div>
+                    <div id="lista-clientes" class="lista-clientes"></div>
+                    <article id="cliente-detalle" class="cliente-detalle" aria-live="polite">
+                        <span class="detalle-vacio">Elegí un cliente para ver su ficha.</span>
+                    </article>
+                </aside>
+            </section>
+        <div class="clientes-acciones">
+            <a class="clientes-btn-primary" href="index.html#diagnostico">Iniciar diagnóstico gratis <img src="assets/figma/arrow-right.svg" alt="" width="14" height="14"></a>
+            <a class="clientes-btn-secondary" href="index.html#que-hacemos">Ver servicios</a>
+        </div>
+    </main>
+    <footer class="clientes-footer">
+        <p>© 2026 HerencIAs. Todos los derechos reservados. <a href="Politicas de privacidad.html">Política de privacidad</a></p>
+        <div class="clientes-footer-logo"><img src="assets/figma/footer-dot.svg" alt="" width="6" height="6"><strong>HerencIAs</strong></div>
+    </footer>
+</body>
+</html>
