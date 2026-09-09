@@ -300,6 +300,7 @@ ul{
 
 .botones-IV{
     padding:30px 20px;
+    
 }
 
 .Espaciotitulos{
@@ -2012,10 +2013,23 @@ label{
     }
 
     .sobre-page #img-equipo {
-        grid-template-columns: 1fr;
-        gap: 40px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
         width: 100%;
         margin-top: 65px;
+    }
+
+    .sobre-page #img-equipo img {
+        aspect-ratio: 1;
+        height: auto;
+        margin-bottom: 16px;
+        object-fit: cover;
+    }
+
+    .sobre-page #img-equipo h4 {
+        margin: 6px 0;
+        font-size: 14px;
+        line-height: 1.25;
     }
 
     .sobre-page #img-equipo + h2 {
@@ -2032,10 +2046,12 @@ label{
         flex-direction: column;
         width: 100%;
         margin-top: 55px;
+        gap: 16px;
     }
 
-    .sobre-page .sobre-btn-primary,
-    .sobre-page .but-ver-serv {
+    .sobre-page .botones-IV > .sobre-btn-primary,
+    .sobre-page .botones-IV > .but-ver-serv {
+        box-sizing: border-box;
         width: 100%;
         min-width: 0;
         justify-content: center;
