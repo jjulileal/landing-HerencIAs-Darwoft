@@ -153,6 +153,10 @@
 
 - Se amplio el ancho del texto introductorio de `Clientes` y se alineo con el contenedor de lectura de las demas pestanas.
 - El texto introductorio de `Clientes` se centro manteniendo el ancho amplio del contenedor.
+- Se centraron los textos debajo de los titulos principales de `Como funciona` y `Politicas`.
+- Los botones de diagnostico y servicios de las paginas internas quedaron alineados al lateral izquierdo de su contenedor, como en `Clientes`; el `index` se mantuvo sin cambios.
+- Se aplico formato justificado a los parrafos de contenido de todas las paginas, manteniendo centrados los subtitulos introductorios.
+- Las cards de objetivos del `index` se convirtieron en una grilla responsive estable, con anchos internos controlados y separadores adaptables.
 
 - Se centraron vertical y horizontalmente los contadores numéricos del mapa de clientes mediante atributos SVG.
 - Se extendió el estado hover/focus de los CTAs a los botones de formulario, popup y acciones de todas las páginas.
